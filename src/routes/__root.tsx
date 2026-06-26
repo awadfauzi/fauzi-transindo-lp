@@ -88,10 +88,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Fauzi Transindo — Jasa Trucking & Pindahan Terpercaya" },
       { name: "twitter:description", content: "Jasa pengiriman barang dan pindahan ke seluruh Indonesia. Pelayanan personal, aman, dan terpercaya. Konsultasi gratis via WhatsApp." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/45577c6a-aea7-4152-986d-e3b8fc94dd5c" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/45577c6a-aea7-4152-986d-e3b8fc94dd5c" },
+      { property: "og:image", content: "https://kirimbaranglogistik.com/og-image.jpg" },
+      { name: "twitter:image", content: "https://kirimbaranglogistik.com/og-image.jpg" },
     ],
     links: [
+      { rel: "icon", href: "/favicon.ico" },
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },

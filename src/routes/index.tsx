@@ -76,9 +76,11 @@ export const Route = createFileRoute("/")({
             reviewCount: "63",
           },
           priceRange: "$$",
+          image: "https://kirimbaranglogistik.com/og-image.jpg",
           sameAs: [
             "https://instagram.com/sewa_mobilbox_bandung",
-            "https://facebook.com/fauzi.transindo",
+           "https://facebook.com/fauzi.transindo",
+           "https://maps.app.goo.gl/QeW2ZhjXs92tYHQAA",
           ],
         }),
       },
