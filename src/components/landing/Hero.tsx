@@ -26,12 +26,12 @@ export function Hero() {
           </div>
 
           <h1 className="text-balance text-[32px] leading-[1.05] sm:text-5xl lg:text-[56px] font-extrabold text-navy">
-            Pengiriman Barang Antar Kota dari{" "}
+            Jasa Pengiriman Barang Antar Kota dari{" "}
             <span className="relative inline-block">
               <span className="relative z-10">Bandung</span>
               <span className="absolute inset-x-0 bottom-1 h-3 bg-orange/30 -z-0 rounded-sm" />
             </span>{" "}
-            dengan Respon Cepat dan Pelayanan Personal.
+            , Cepat & Terpercaya.
           </h1>
 
           <p className="text-balance text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed">
