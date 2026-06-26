@@ -147,7 +147,7 @@ const Route = createFileRoute("/")({
       title: "Pengiriman Barang Antar Kota dari Bandung | Fauzi Transindo"
     }, {
       name: "description",
-      content: "Jasa pengiriman barang antar kota dari Bandung & Jakarta dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0."
+      content: "Jasa pengiriman barang antar kota dari Bandung dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0."
     }, {
       name: "keywords",
       content: "pengiriman barang antar kota bandung, ekspedisi bandung, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung"
