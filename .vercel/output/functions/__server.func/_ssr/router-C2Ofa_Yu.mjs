@@ -144,7 +144,7 @@ const $$splitComponentImporter = () => import("./index-CqM2_paJ.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
-      title: "Pengiriman Barang Antar Kota Bandung | Fauzi Transindo"
+      title: "Pengiriman Barang Antar Kota dari Bandung | Fauzi Transindo"
     }, {
       name: "description",
       content: "Jasa pengiriman barang antar kota dari Bandung & Jakarta dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0."
@@ -153,7 +153,7 @@ const Route = createFileRoute("/")({
       content: "pengiriman barang antar kota bandung, ekspedisi bandung, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung"
     }, {
       property: "og:title",
-      content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung"
+      content: "Fauzi Transindo — Pengiriman Barang Antar Kota dari Bandung"
     }, {
       property: "og:description",
       content: "Respon cepat & pelayanan personal. Granmax Box, Engkel Box, CDD Box & Bak ke Jawa, Sumatera, Bali & NTB."
@@ -168,7 +168,7 @@ const Route = createFileRoute("/")({
       content: "summary_large_image"
     }, {
       name: "twitter:title",
-      content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung"
+      content: "Fauzi Transindo — Pengiriman Barang Antar Kota dari Bandung"
     }, {
       name: "twitter:description",
       content: "Respon cepat & pelayanan personal. Armada lengkap ke Jawa, Sumatera, Bali & NTB."

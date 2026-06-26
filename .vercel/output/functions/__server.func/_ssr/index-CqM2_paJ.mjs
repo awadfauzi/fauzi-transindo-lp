@@ -896,7 +896,7 @@ function Footer() {
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2011–2026 Fauzi Transindo. All rights reserved." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/40", children: "Pengiriman Barang Antar Kota Bandung" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/40", children: "Pengiriman Barang Antar Kota dari Bandung" })
     ] })
   ] }) });
 }
