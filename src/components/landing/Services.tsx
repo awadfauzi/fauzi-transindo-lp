@@ -21,7 +21,7 @@ type Armada = {
 };
 
 const armada: Armada[] = [
-  { img: antarKota, title: "Pengiriman Antar Kota", capacity: "Layanan Utama", dim: "Bandung • Jakarta • Jawa, Sumatera, Bali & NTB", desc: "Layanan pengiriman antar kota dari Bandung dan Jakarta — bisnis maupun personal.", highlight: true, fit: "cover" },
+  { img: antarKota, title: "Pengiriman Antar Kota", capacity: "Layanan Utama", dim: "Bandung • Jawa, Sumatera, Bali & NTB", desc: "Layanan pengiriman antar kota dari Bandung — bisnis maupun personal.", highlight: true, fit: "cover" },
   { img: antarPulau, title: "Pengiriman Antar Pulau", capacity: "Sumatera • Bali • NTB", dim: "Penyeberangan & koordinasi rute", desc: "Pengiriman antar pulau ke Sumatera, Bali, dan NTB dengan armada dan rute yang sudah teruji.", fit: "cover" },
   { img: pindahanRumah, title: "Pindahan Rumah", capacity: "Personal", dim: "Pengemasan & pemindahan", desc: "Pindahan rumah cepat, rapi, dan aman dengan tim berpengalaman.", fit: "cover" },
   { img: pindahanKantor, title: "Pindahan Kantor", capacity: "Bisnis", dim: "Minim ganggu operasional", desc: "Pindahan kantor terkoordinasi agar aktivitas bisnis Anda tetap berjalan.", fit: "cover" },

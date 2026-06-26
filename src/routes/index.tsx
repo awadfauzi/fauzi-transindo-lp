@@ -20,18 +20,18 @@ import { FloatingWhatsApp } from "@/components/landing/FloatingWhatsApp";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Pengiriman Barang Antar Kota Bandung & Jakarta | Fauzi Transindo" },
-      { name: "description", content: "Jasa pengiriman barang antar kota dari Bandung & Jakarta dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0." },
-      { name: "keywords", content: "pengiriman barang antar kota bandung, ekspedisi bandung jakarta, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung" },
-      { property: "og:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta" },
+      { title: "Pengiriman Barang Antar Kota Bandung | Fauzi Transindo" },
+      { name: "description", content: "Jasa pengiriman barang antar kota dari Bandung dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0." },
+      { name: "keywords", content: "pengiriman barang antar kota bandung, ekspedisi bandung, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung" },
+      { property: "og:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung" },
       { property: "og:description", content: "Respon cepat & pelayanan personal. Granmax Box, Engkel Box, CDD Box & Bak ke Jawa, Sumatera, Bali & NTB." },
-      { property: "og:url", content: "https://fauzitransindo.com" },
+      { property: "og:url", content: "https://kirimbaranglogistik.com" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta" },
+      { name: "twitter:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung" },
       { name: "twitter:description", content: "Respon cepat & pelayanan personal. Armada lengkap ke Jawa, Sumatera, Bali & NTB." },
     ],
-    links: [{ rel: "canonical", href: "https://fauzitransindo.com" }],
+    links: [{ rel: "canonical", href: "https://kirimbaranglogistik.com" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -39,7 +39,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": ["LocalBusiness", "MovingCompany"],
           name: "Fauzi Transindo",
-          url: "https://fauzitransindo.com",
+          url: "https://kirimbaranglogistik.com",
           telephone: "+6282117207037",
           email: "fauzitransindo@gmail.com",
           address: {
@@ -109,7 +109,7 @@ export const Route = createFileRoute("/")({
               name: "Area mana saja yang dilayani?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Kami melayani penjemputan dari Bandung dan Jakarta dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB.",
+                text: "Kami melayani penjemputan dari Bandung dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB.",
               },
             },
             {

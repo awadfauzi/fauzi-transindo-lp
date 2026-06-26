@@ -1,6 +1,6 @@
 import { MapPin, ArrowRight, Truck } from "lucide-react";
 
-const origins = ["Bandung", "Jakarta"];
+const origins = ["Bandung"];
 const destinations = [
   "Palembang",
   "Bengkulu",
@@ -17,7 +17,7 @@ const destinations = [
 
 const regions = [
   { name: "Bandung", x: "42%", y: "72%", origin: true },
-  { name: "Jakarta", x: "40%", y: "68%", origin: true },
+  { name: "Jakarta", x: "40%", y: "68%" },
   { name: "Semarang", x: "48%", y: "72%" },
   { name: "Jogja", x: "50%", y: "76%" },
   { name: "Surabaya", x: "56%", y: "72%" },
@@ -35,10 +35,10 @@ export function ServiceArea() {
         <div>
           <span className="inline-block text-xs font-bold tracking-[0.2em] text-orange mb-3">AREA LAYANAN</span>
           <h2 className="text-balance text-3xl md:text-4xl lg:text-5xl font-bold text-navy">
-            Dari Bandung & Jakarta ke Jawa, Sumatera, Bali & NTB.
+            Dari Bandung ke Jawa, Sumatera, Bali & NTB.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground max-w-lg leading-relaxed">
-            Penjemputan utama dari Bandung dan Jakarta menuju berbagai kota tujuan populer di Jawa, Sumatera, Bali, dan NTB.
+            Penjemputan utama dari Bandung menuju berbagai kota tujuan populer di Jawa, Sumatera, Bali, dan NTB.
           </p>
 
           <div className="mt-7 grid sm:grid-cols-2 gap-5">

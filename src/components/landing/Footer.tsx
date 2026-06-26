@@ -17,7 +17,7 @@ export function Footer() {
               <span className="font-display font-bold text-white text-lg">FAUZI TRANSINDO</span>
             </div>
             <p className="text-sm leading-relaxed max-w-sm">
-              {SITE.tagline}. Jasa pengiriman barang antar kota dari Bandung & Jakarta ke Jawa, Sumatera, Bali & NTB dengan pelayanan personal dan responsif.
+              {SITE.tagline}. Jasa pengiriman barang antar kota dari Bandung ke Jawa, Sumatera, Bali & NTB dengan pelayanan personal dan responsif.
             </p>
             <a
               href={SITE.googleReviewUrl}
@@ -108,7 +108,7 @@ export function Footer() {
 
         <div className="mt-10 pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs">
           <p>© 2011–2026 Fauzi Transindo. All rights reserved.</p>
-          <p className="text-white/40">Pengiriman Barang Antar Kota Bandung & Jakarta</p>
+          <p className="text-white/40">Pengiriman Barang Antar Kota Bandung</p>
         </div>
       </div>
     </footer>

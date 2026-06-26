@@ -4,7 +4,7 @@ import { Plus } from "lucide-react";
 const faqs = [
   { q: "Apakah sewa armada sudah termasuk driver?", a: "Ya, semua armada kami sudah termasuk driver — Anda tidak perlu menyediakan sopir sendiri." },
   { q: "Bagaimana cara meminta penawaran?", a: "Klik tombol WhatsApp di halaman ini, ceritakan kebutuhan Anda (asal, tujuan, jenis barang, perkiraan volume), dan tim kami akan memberikan penawaran terbaik." },
-  { q: "Area mana saja yang dilayani?", a: "Kami melayani penjemputan dari Bandung dan Jakarta dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB." },
+  { q: "Area mana saja yang dilayani?", a: "Kami melayani penjemputan dari Bandung dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB." },
   { q: "Jenis armada apa saja yang tersedia?", a: "Granmax Box, Engkel Box, CDD Box, dan CDD Bak. Tim kami bantu memilih armada yang paling sesuai dengan volume dan jenis barang Anda." },
   { q: "Apakah melayani pengiriman antar pulau?", a: "Ya. Kami melayani pengiriman antar pulau ke Sumatera, Bali, dan NTB." },
   { q: "Apakah harga sudah termasuk asuransi?", a: "Untuk asuransi barang, silakan diskusikan dengan tim kami. Kami dapat membantu mengatur perlindungan tambahan sesuai nilai barang." },
