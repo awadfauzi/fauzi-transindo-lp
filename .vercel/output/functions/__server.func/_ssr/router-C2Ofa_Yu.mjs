@@ -93,8 +93,8 @@ const Route$1 = createRootRouteWithContext()({
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Fauzi Transindo — Jasa Trucking & Pindahan Terpercaya" },
       { name: "twitter:description", content: "Jasa pengiriman barang dan pindahan ke seluruh Indonesia. Pelayanan personal, aman, dan terpercaya. Konsultasi gratis via WhatsApp." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/45577c6a-aea7-4152-986d-e3b8fc94dd5c" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/45577c6a-aea7-4152-986d-e3b8fc94dd5c" }
+      { property: "og:image", content: "https://kirimbaranglogistik.com/og-image.jpg" },
+      { name: "twitter:image", content: "https://kirimbaranglogistik.com/og-image.jpg" }
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -144,22 +144,22 @@ const $$splitComponentImporter = () => import("./index-CqM2_paJ.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
-      title: "Pengiriman Barang Antar Kota Bandung & Jakarta | Fauzi Transindo"
+      title: "Pengiriman Barang Antar Kota Bandung | Fauzi Transindo"
     }, {
       name: "description",
       content: "Jasa pengiriman barang antar kota dari Bandung & Jakarta dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0."
     }, {
       name: "keywords",
-      content: "pengiriman barang antar kota bandung, ekspedisi bandung jakarta, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung"
+      content: "pengiriman barang antar kota bandung, ekspedisi bandung, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung"
     }, {
       property: "og:title",
-      content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta"
+      content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung"
     }, {
       property: "og:description",
       content: "Respon cepat & pelayanan personal. Granmax Box, Engkel Box, CDD Box & Bak ke Jawa, Sumatera, Bali & NTB."
     }, {
       property: "og:url",
-      content: "https://fauzitransindo.com"
+      content: "https://kirimbaranglogistik.com"
     }, {
       property: "og:type",
       content: "website"
@@ -168,14 +168,14 @@ const Route = createFileRoute("/")({
       content: "summary_large_image"
     }, {
       name: "twitter:title",
-      content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta"
+      content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung"
     }, {
       name: "twitter:description",
       content: "Respon cepat & pelayanan personal. Armada lengkap ke Jawa, Sumatera, Bali & NTB."
     }],
     links: [{
       rel: "canonical",
-      href: "https://fauzitransindo.com"
+      href: "https://kirimbaranglogistik.com"
     }],
     scripts: [{
       type: "application/ld+json",
@@ -183,7 +183,7 @@ const Route = createFileRoute("/")({
         "@context": "https://schema.org",
         "@type": ["LocalBusiness", "MovingCompany"],
         name: "Fauzi Transindo",
-        url: "https://fauzitransindo.com",
+        url: "https://kirimbaranglogistik.com",
         telephone: "+6282117207037",
         email: "fauzitransindo@gmail.com",
         address: {
@@ -263,7 +263,7 @@ const Route = createFileRoute("/")({
           name: "Area mana saja yang dilayani?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Kami melayani penjemputan dari Bandung dan Jakarta dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB."
+            text: "Kami melayani penjemputan dari Bandung dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB."
           }
         }, {
           "@type": "Question",

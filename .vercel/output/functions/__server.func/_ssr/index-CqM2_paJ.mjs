@@ -350,7 +350,7 @@ const pindahanKantor = "/assets/pindahan-kantor-x3kzgMnH.jpg";
 const antarKota = "/assets/cat-antar-kota-DBIkWqaY.jpg";
 const antarPulau = "/assets/cat-antar-pulau-WIouObDy.jpg";
 const armada = [
-  { img: antarKota, title: "Pengiriman Antar Kota", capacity: "Layanan Utama", dim: "Bandung • Jakarta • Jawa, Sumatera, Bali & NTB", desc: "Layanan pengiriman antar kota dari Bandung dan Jakarta — bisnis maupun personal.", highlight: true, fit: "cover" },
+  { img: antarKota, title: "Pengiriman Antar Kota", capacity: "Layanan Utama", dim: "Bandung • Jawa, Sumatera, Bali & NTB", desc: "Layanan pengiriman antar kota dari Bandung — bisnis maupun personal.", highlight: true, fit: "cover" },
   { img: antarPulau, title: "Pengiriman Antar Pulau", capacity: "Sumatera • Bali • NTB", dim: "Penyeberangan & koordinasi rute", desc: "Pengiriman antar pulau ke Sumatera, Bali, dan NTB dengan armada dan rute yang sudah teruji.", fit: "cover" },
   { img: pindahanRumah, title: "Pindahan Rumah", capacity: "Personal", dim: "Pengemasan & pemindahan", desc: "Pindahan rumah cepat, rapi, dan aman dengan tim berpengalaman.", fit: "cover" },
   { img: pindahanKantor, title: "Pindahan Kantor", capacity: "Bisnis", dim: "Minim ganggu operasional", desc: "Pindahan kantor terkoordinasi agar aktivitas bisnis Anda tetap berjalan.", fit: "cover" },
@@ -480,8 +480,8 @@ function ServiceArea() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "area", className: "section-y bg-navy-soft/60", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container-px mx-auto max-w-7xl grid lg:grid-cols-[1fr_1.15fr] gap-10 lg:gap-14 items-center", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block text-xs font-bold tracking-[0.2em] text-orange mb-3", children: "AREA LAYANAN" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-balance text-3xl md:text-4xl lg:text-5xl font-bold text-navy", children: "Dari Bandung & Jakarta ke Jawa, Sumatera, Bali & NTB." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-lg text-muted-foreground max-w-lg leading-relaxed", children: "Penjemputan utama dari Bandung dan Jakarta menuju berbagai kota tujuan populer di Jawa, Sumatera, Bali, dan NTB." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-balance text-3xl md:text-4xl lg:text-5xl font-bold text-navy", children: "Dari Bandung ke Jawa, Sumatera, Bali & NTB." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-lg text-muted-foreground max-w-lg leading-relaxed", children: "Penjemputan utama dari Bandung menuju berbagai kota tujuan populer di Jawa, Sumatera, Bali, dan NTB." }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-7 grid sm:grid-cols-2 gap-5", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xs font-bold tracking-[0.18em] text-navy/60 mb-3 flex items-center gap-2", children: [
@@ -699,7 +699,7 @@ function Process() {
 const faqs = [
   { q: "Apakah sewa armada sudah termasuk driver?", a: "Ya, semua armada kami sudah termasuk driver — Anda tidak perlu menyediakan sopir sendiri." },
   { q: "Bagaimana cara meminta penawaran?", a: "Klik tombol WhatsApp di halaman ini, ceritakan kebutuhan Anda (asal, tujuan, jenis barang, perkiraan volume), dan tim kami akan memberikan penawaran terbaik." },
-  { q: "Area mana saja yang dilayani?", a: "Kami melayani penjemputan dari Bandung dan Jakarta dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB." },
+  { q: "Area mana saja yang dilayani?", a: "Kami melayani penjemputan dari Bandung dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB." },
   { q: "Jenis armada apa saja yang tersedia?", a: "Granmax Box, Engkel Box, CDD Box, dan CDD Bak. Tim kami bantu memilih armada yang paling sesuai dengan volume dan jenis barang Anda." },
   { q: "Apakah melayani pengiriman antar pulau?", a: "Ya. Kami melayani pengiriman antar pulau ke Sumatera, Bali, dan NTB." },
   { q: "Apakah harga sudah termasuk asuransi?", a: "Untuk asuransi barang, silakan diskusikan dengan tim kami. Kami dapat membantu mengatur perlindungan tambahan sesuai nilai barang." },
@@ -787,7 +787,7 @@ function Footer() {
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm leading-relaxed max-w-sm", children: [
           SITE.tagline,
-          ". Jasa pengiriman barang antar kota dari Bandung & Jakarta ke Jawa, Sumatera, Bali & NTB dengan pelayanan personal dan responsif."
+          ". Jasa pengiriman barang antar kota dari Bandung ke Jawa, Sumatera, Bali & NTB dengan pelayanan personal dan responsif."
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs(
           "a",
@@ -896,7 +896,7 @@ function Footer() {
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2011–2026 Fauzi Transindo. All rights reserved." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/40", children: "Pengiriman Barang Antar Kota Bandung & Jakarta" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/40", children: "Pengiriman Barang Antar Kota Bandung" })
     ] })
   ] }) });
 }
