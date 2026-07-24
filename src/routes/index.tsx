@@ -235,6 +235,22 @@ export const Route = createFileRoute("/")({
 });
 
 function LandingPage() {
+    // Track WhatsApp clicks for Google Ads conversion
+    if (typeof window !== 'undefined') {
+          setTimeout(() => {
+                  const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
+                  whatsappLinks.forEach(link => {
+                            link.addEventListener('click', () => {
+                                        if ((window as any).gtag) {
+                                                      (window as any).gtag('event', 'conversion', {
+                                                                      'allow_custom_scripts': true,
+                                                                      'conversion_id': '7263170386',
+                                                      });
+                                        }
+                            });
+                  });
+          }, 100);
+    }
   return (
     <main className="bg-background">
       <Navbar />
