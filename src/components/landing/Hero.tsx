@@ -39,7 +39,7 @@ export function Hero() {
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
-            <WaButton size="lg">Minta Penawaran via WhatsApp</WaButton>
+            💬 Dapatkan <WaButton size="xl" variant="gradient-glow">Penawaran Gratis💬 Dapatkan Penawaran Gratis</WaButton>
             <a
               href="#layanan"
               className="inline-flex items-center gap-1.5 h-14 px-6 rounded-full font-semibold text-navy hover:text-orange transition-colors"
