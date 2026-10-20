@@ -20,18 +20,18 @@ import { FloatingWhatsApp } from "@/components/landing/FloatingWhatsApp";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Pengiriman Barang Antar Kota Bandung | Fauzi Transindo" },
-      { name: "description", content: "Jasa pengiriman barang antar kota dari Bandung dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0." },
-      { name: "keywords", content: "pengiriman barang antar kota bandung, ekspedisi bandung, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung" },
-      { property: "og:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung" },
+      { title: "Pengiriman Barang Antar Kota Bandung & Jakarta | Fauzi Transindo" },
+      { name: "description", content: "Jasa pengiriman barang antar kota dari Bandung & Jakarta dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0." },
+      { name: "keywords", content: "pengiriman barang antar kota bandung, ekspedisi bandung jakarta, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung" },
+      { property: "og:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta" },
       { property: "og:description", content: "Respon cepat & pelayanan personal. Granmax Box, Engkel Box, CDD Box & Bak ke Jawa, Sumatera, Bali & NTB." },
-      { property: "og:url", content: "https://kirimbaranglogistik.com" },
+      { property: "og:url", content: "https://fauzitransindo.com" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung" },
+      { name: "twitter:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta" },
       { name: "twitter:description", content: "Respon cepat & pelayanan personal. Armada lengkap ke Jawa, Sumatera, Bali & NTB." },
     ],
-    links: [{ rel: "canonical", href: "https://kirimbaranglogistik.com" }],
+    links: [{ rel: "canonical", href: "https://fauzitransindo.com" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -39,7 +39,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": ["LocalBusiness", "MovingCompany"],
           name: "Fauzi Transindo",
-          url: "https://kirimbaranglogistik.com",
+          url: "https://fauzitransindo.com",
           telephone: "+6282117207037",
           email: "fauzitransindo@gmail.com",
           address: {
@@ -76,11 +76,9 @@ export const Route = createFileRoute("/")({
             reviewCount: "63",
           },
           priceRange: "$$",
-          image: "https://kirimbaranglogistik.com/og-image.jpg",
           sameAs: [
             "https://instagram.com/sewa_mobilbox_bandung",
-           "https://facebook.com/fauzi.transindo",
-           "https://maps.app.goo.gl/QeW2ZhjXs92tYHQAA",
+            "https://facebook.com/fauzi.transindo",
           ],
         }),
       },
@@ -111,7 +109,7 @@ export const Route = createFileRoute("/")({
               name: "Area mana saja yang dilayani?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Kami melayani penjemputan dari Bandung dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB.",
+                text: "Kami melayani penjemputan dari Bandung dan Jakarta dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB.",
               },
             },
             {
@@ -235,22 +233,6 @@ export const Route = createFileRoute("/")({
 });
 
 function LandingPage() {
-    // Track WhatsApp clicks for Google Ads conversion
-    if (typeof window !== 'undefined') {
-          setTimeout(() => {
-                  const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
-                  whatsappLinks.forEach(link => {
-                            link.addEventListener('click', () => {
-                                        if ((window as any).gtag) {
-                                                      (window as any).gtag('event', 'conversion', {
-                                                                      'allow_custom_scripts': true,
-                                                                      'conversion_id': '7263170386',
-                                                      });
-                                        }
-                            });
-                  });
-          }, 100);
-    }
   return (
     <main className="bg-background">
       <Navbar />

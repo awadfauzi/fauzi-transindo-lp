@@ -88,11 +88,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Fauzi Transindo — Jasa Trucking & Pindahan Terpercaya" },
       { name: "twitter:description", content: "Jasa pengiriman barang dan pindahan ke seluruh Indonesia. Pelayanan personal, aman, dan terpercaya. Konsultasi gratis via WhatsApp." },
-      { property: "og:image", content: "https://kirimbaranglogistik.com/og-image.jpg" },
-      { name: "twitter:image", content: "https://kirimbaranglogistik.com/og-image.jpg" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/45577c6a-aea7-4152-986d-e3b8fc94dd5c" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/45577c6a-aea7-4152-986d-e3b8fc94dd5c" },
     ],
     links: [
-      { rel: "icon", href: "/favicon.ico" },
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
@@ -110,19 +109,10 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
-        {/* Google Ads Conversion Tracking */}
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-7539959233"></script>script>
-                  <script>{`
-                                window.dataLayer = window.dataLayer || [];
-                                              function gtag(){dataLayer.push(arguments);}
-                                                            gtag('js', new Date());
-                                                                          gtag('config', 'AW-7539959233');
-                                                                                      `}
-                  </script>script></script>
         
 
         <script
-          </html>script>
+          dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T6P85DFJ');`,
           }}
         />

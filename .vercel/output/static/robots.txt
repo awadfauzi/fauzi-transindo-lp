@@ -1,3 +1,0 @@
-Sitemap: https://kirimbaranglogistik.com/sitemap.xml
-User-agent: *
-Allow: /

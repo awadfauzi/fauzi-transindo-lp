@@ -26,12 +26,12 @@ export function Hero() {
           </div>
 
           <h1 className="text-balance text-[32px] leading-[1.05] sm:text-5xl lg:text-[56px] font-extrabold text-navy">
-            Jasa Pengiriman Barang Antar Kota dari{" "}
+            Pengiriman Barang Antar Kota dari{" "}
             <span className="relative inline-block">
               <span className="relative z-10">Bandung</span>
               <span className="absolute inset-x-0 bottom-1 h-3 bg-orange/30 -z-0 rounded-sm" />
             </span>{" "}
-            , Cepat & Terpercaya.
+            dengan Respon Cepat dan Pelayanan Personal.
           </h1>
 
           <p className="text-balance text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed">
@@ -39,7 +39,7 @@ export function Hero() {
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
-            💬 Dapatkan <WaButton size="xl" variant="gradient-glow">Penawaran Gratis💬 Dapatkan Penawaran Gratis</WaButton>
+            <WaButton size="lg">Minta Penawaran via WhatsApp</WaButton>
             <a
               href="#layanan"
               className="inline-flex items-center gap-1.5 h-14 px-6 rounded-full font-semibold text-navy hover:text-orange transition-colors"
