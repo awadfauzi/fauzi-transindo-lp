@@ -49,6 +49,10 @@ export function Hero() {
             </a>
           </div>
 
+          <p className="text-sm font-semibold text-navy">
+            Semua armada wajib dengan sopir. Tidak melayani lepas kunci.
+          </p>
+
           <div className="flex flex-wrap gap-2 pt-3">
             {badges.map((b) => (
               <span
