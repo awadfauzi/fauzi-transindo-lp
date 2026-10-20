@@ -10,6 +10,7 @@ import antarPulau from "@/assets/cat-antar-pulau.jpg";
 import { waLink, DEFAULT_WA_MESSAGE } from "@/lib/site";
 
 type Armada = {
+  id: string;
   img: string;
   title: string;
   capacity: string;
@@ -21,24 +22,25 @@ type Armada = {
 };
 
 const armada: Armada[] = [
-  { img: antarKota, title: "Pengiriman Antar Kota", capacity: "Layanan Utama", dim: "Bandung • Jakarta • Jawa, Sumatera, Bali & NTB", desc: "Layanan pengiriman antar kota dari Bandung dan Jakarta — bisnis maupun personal.", highlight: true, fit: "cover" },
-  { img: antarPulau, title: "Pengiriman Antar Pulau", capacity: "Sumatera • Bali • NTB", dim: "Penyeberangan & koordinasi rute", desc: "Pengiriman antar pulau ke Sumatera, Bali, dan NTB dengan armada dan rute yang sudah teruji.", fit: "cover" },
-  { img: pindahanRumah, title: "Pindahan Rumah", capacity: "Personal", dim: "Pengemasan & pemindahan", desc: "Pindahan rumah cepat, rapi, dan aman dengan tim berpengalaman.", fit: "cover" },
-  { img: pindahanKantor, title: "Pindahan Kantor", capacity: "Bisnis", dim: "Minim ganggu operasional", desc: "Pindahan kantor terkoordinasi agar aktivitas bisnis Anda tetap berjalan.", fit: "cover" },
-  { img: granmax, title: "Granmax Box — Pengiriman Barang Cepat", capacity: "± 800 kg", dim: "± 2.2 × 1.5 × 1.2 m • Vol. 3–4 m³", desc: "Armada ringkas untuk pengiriman volume kecil dalam kota maupun antar kota.", withDriver: true, fit: "contain" },
-  { img: engkel, title: "Engkel Box — Armada Standar Kami", capacity: "± 2 Ton", dim: "± 3.0 × 1.6 × 1.6 m • Vol. 7–8 m³", desc: "Pilihan ideal untuk pengiriman menengah dengan ruang muat lebih lega.", withDriver: true, fit: "contain" },
-  { img: cddBox, title: "CDD Box — Pengiriman Kapasitas Besar", capacity: "± 4 Ton", dim: "± 4.0 × 1.8 × 1.8 m • Vol. 13–14 m³", desc: "Truk box berkapasitas besar untuk pengiriman antar provinsi dan antar pulau.", withDriver: true, fit: "contain" },
-  { img: cddBak, title: "CDD Bak — Material & Muatan Besar", capacity: "± 4 Ton", dim: "± 4.0 × 1.8 × 1.8 m • Vol. 13–14 m³", desc: "Bak terbuka untuk muatan besar, material, dan barang non-pecah belah.", withDriver: true, fit: "contain" },
+  { id: "luarkota", img: antarKota, title: "Pengiriman Antar Kota", capacity: "Layanan Utama", dim: "Bandung • Jakarta • Jawa, Sumatera, Bali & NTB", desc: "Layanan pengiriman antar kota dari Bandung dan Jakarta — bisnis maupun personal.", highlight: true, fit: "cover" },
+  { id: "antarpulau", img: antarPulau, title: "Pengiriman Antar Pulau", capacity: "Sumatera • Bali • NTB", dim: "Penyeberangan & koordinasi rute", desc: "Pengiriman antar pulau ke Sumatera, Bali, dan NTB dengan armada dan rute yang sudah teruji.", fit: "cover" },
+  { id: "pindahan", img: pindahanRumah, title: "Pindahan Rumah", capacity: "Personal", dim: "Pengemasan & pemindahan", desc: "Pindahan rumah cepat, rapi, dan aman dengan tim berpengalaman.", fit: "cover" },
+  { id: "pindahan-kantor", img: pindahanKantor, title: "Pindahan Kantor", capacity: "Bisnis", dim: "Minim ganggu operasional", desc: "Pindahan kantor terkoordinasi agar aktivitas bisnis Anda tetap berjalan.", fit: "cover" },
+  { id: "granmax", img: granmax, title: "Granmax Box — Pengiriman Barang Cepat", capacity: "± 800 kg", dim: "± 2.2 × 1.5 × 1.2 m • Vol. 3–4 m³", desc: "Armada ringkas untuk pengiriman volume kecil dalam kota maupun antar kota.", withDriver: true, fit: "contain" },
+  { id: "engkel", img: engkel, title: "Engkel Box — Armada Standar Kami", capacity: "± 2 Ton", dim: "± 3.0 × 1.6 × 1.6 m • Vol. 7–8 m³", desc: "Pilihan ideal untuk pengiriman menengah dengan ruang muat lebih lega.", withDriver: true, fit: "contain" },
+  { id: "cdd", img: cddBox, title: "CDD Box — Pengiriman Kapasitas Besar", capacity: "± 4 Ton", dim: "± 4.0 × 1.8 × 1.8 m • Vol. 13–14 m³", desc: "Truk box berkapasitas besar untuk pengiriman antar provinsi dan antar pulau.", withDriver: true, fit: "contain" },
+  { id: "cdd-bak", img: cddBak, title: "CDD Bak — Material & Muatan Besar", capacity: "± 4 Ton", dim: "± 4.0 × 1.8 × 1.8 m • Vol. 13–14 m³", desc: "Bak terbuka untuk muatan besar, material, dan barang non-pecah belah.", withDriver: true, fit: "contain" },
 ];
 
 function ServiceCard({ s }: { s: Armada }) {
   return (
     <a
       key={s.title}
+      id={s.id}
       href={waLink(DEFAULT_WA_MESSAGE)}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex flex-col bg-white rounded-3xl border border-border overflow-hidden hover:shadow-elegant hover:-translate-y-1 transition-all duration-300"
+      className="scroll-mt-28 group flex flex-col bg-white rounded-3xl border border-border overflow-hidden hover:shadow-elegant hover:-translate-y-1 transition-all duration-300"
     >
       <div className={`relative aspect-[4/3] overflow-hidden ${s.fit === "contain" ? "bg-white" : "bg-navy-soft"}`}>
         <img
