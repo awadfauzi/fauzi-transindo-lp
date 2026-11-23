@@ -4,7 +4,7 @@ const values = [
   {
     icon: Zap,
     title: "Respon Cepat",
-    desc: "Kami memahami kebutuhan pengiriman sering bersifat mendesak. Tim kami siap merespon pesan WhatsApp Anda dengan sigap.",
+    desc: "Kami memahami kebutuhan angkutan barang sering bersifat mendesak. Tim kami siap merespon pesan WhatsApp Anda dengan sigap.",
   },
   {
     icon: Truck,
@@ -28,7 +28,7 @@ export function WhyUs() {
         <div className="max-w-2xl mb-12 md:mb-16">
           <span className="inline-block text-xs font-bold tracking-[0.2em] text-orange mb-3">MENGAPA MEMILIH KAMI</span>
           <h2 className="text-balance text-3xl md:text-4xl lg:text-5xl font-bold">
-            Lebih dari sekadar jasa angkut. Kami partner logistik Anda.
+            Satu Armada Khusus, Sopir Berpengalaman, dan Layanan Personal.
           </h2>
         </div>
 
