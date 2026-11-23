@@ -3,7 +3,7 @@ import { Plus } from "lucide-react";
 
 const faqs = [
   { q: "Apakah sewa armada sudah termasuk driver?", a: "Ya, semua armada kami sudah termasuk driver — Anda tidak perlu menyediakan sopir sendiri." },
-  { q: "Bagaimana cara meminta penawaran?", a: "Klik tombol WhatsApp di halaman ini, ceritakan kebutuhan Anda (asal, tujuan, jenis barang, perkiraan volume), dan tim kami akan memberikan penawaran terbaik." },
+  { q: "Bagaimana cara meminta penawaran?", a: "Klik tombol WhatsApp dan informasikan asal, tujuan, jenis barang, serta ukuran atau perkiraan volume muatan. Kami akan memberikan penawaran sewa armada sesuai kebutuhan Anda." },
   { q: "Area mana saja yang dilayani?", a: "Kami melayani penjemputan dari Bandung dan Jakarta dengan tujuan ke berbagai kota di Jawa, Sumatera, Bali, dan NTB." },
   { q: "Jenis armada apa saja yang tersedia?", a: "Granmax Box, Engkel Box, CDD Box, dan CDD Bak. Tim kami bantu memilih armada yang paling sesuai dengan volume dan jenis barang Anda." },
   { q: "Apakah melayani pengiriman antar pulau?", a: "Ya. Kami melayani pengiriman antar pulau ke Sumatera, Bali, dan NTB." },
@@ -15,7 +15,7 @@ const faqs = [
   { q: "Apakah ada update posisi barang selama pengiriman?", a: "Ya, kami memberikan update berkala kepada PIC Anda hingga barang sampai di tujuan dengan selamat." },
   { q: "Bagaimana jika barang yang dikirim sensitif atau bernilai tinggi?", a: "Informasikan ke tim kami di awal. Kami akan menyesuaikan armada, penanganan, dan rekomendasi pengamanan tambahan." },
   { q: "Apakah melayani kebutuhan rutin perusahaan?", a: "Tentu. Kami terbuka untuk kerja sama jangka panjang dengan distributor, supplier, trading, pabrik, dan UMKM." },
-  { q: "Apakah bisa kirim barang dagangan dalam jumlah kecil?", a: "Bisa. Kami melayani UMKM dengan armada Granmax Box sehingga Anda tidak harus menyewa truk besar untuk volume kecil." },
+  { q: "Apakah bisa menyewa armada meskipun muatan belum penuh?", a: "Bisa. Sistem kami adalah sewa satu armada khusus dengan sopir (FTL), meskipun muatan tidak memenuhi seluruh kapasitas. Kami tidak melayani pengiriman paket atau tarif per kg. Untuk muatan kecil, tersedia pilihan Granmax Box." },
   { q: "Apakah ada tenaga bantu untuk loading dan unloading?", a: "Ya, dapat kami sediakan dengan tambahan biaya yang akan disampaikan di penawaran." },
   { q: "Bagaimana jika lokasi penjemputan sulit dijangkau truk besar?", a: "Beritahu kami kondisi lokasi. Kami akan menyesuaikan jenis armada agar bisa masuk dan tetap efisien." },
   { q: "Apakah Fauzi Transindo melayani pengiriman proyek?", a: "Ya, kami menangani pengiriman peralatan, material, dan logistik proyek dengan armada yang sesuai." },
