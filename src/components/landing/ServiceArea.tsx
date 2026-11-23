@@ -38,7 +38,7 @@ export function ServiceArea() {
             Dari Bandung & Jakarta ke Jawa, Sumatera, Bali & NTB.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground max-w-lg leading-relaxed">
-            Penjemputan utama dari Bandung dan Jakarta menuju berbagai kota tujuan populer di Jawa, Sumatera, Bali, dan NTB.
+            Sewa satu armada dengan sopir untuk angkutan barang dari Bandung atau Jakarta menuju berbagai kota di Jawa, Sumatera, Bali, dan NTB.
           </p>
 
           <div className="mt-7 grid sm:grid-cols-2 gap-5">
