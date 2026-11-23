@@ -12,7 +12,7 @@ export const SITE = {
   hours: "Senin–Sabtu • 08.00–17.00 WIB",
   googleReviewUrl: "https://maps.app.goo.gl/QeW2ZhjXs92tYHQAA",
   googleRating: 5.0,
-  googleReviewCount: 63,
+  googleReviewCount: 72,
   yearsExperience: 15,
   foundedYear: 2011,
   social: {

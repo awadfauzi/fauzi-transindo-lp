@@ -96,13 +96,23 @@ export function Hero() {
               />
             ))}
             <div className="absolute inset-0 bg-gradient-to-tr from-navy/45 via-transparent to-transparent" />
-            <div className="absolute top-5 left-5 bg-white/95 backdrop-blur rounded-2xl border border-white px-4 py-3 shadow-card">
-              <div className="flex items-center gap-1.5">
-                {[0,1,2,3,4].map(i => <Star key={i} className="size-4 fill-orange text-orange" />)}
-                <span className="ml-1 text-sm font-bold text-navy">{SITE.googleRating.toFixed(1)}</span>
+            <a
+              href={SITE.googleReviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Lihat ${SITE.googleReviewCount} ulasan asli Fauzi Transindo di Google`}
+              className="absolute top-4 left-4 z-10 max-w-[calc(100%-2rem)] bg-white/95 backdrop-blur rounded-2xl border border-white/90 px-4 py-3 shadow-card hover:bg-white hover:shadow-elegant focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange transition-all"
+            >
+              <div className="flex flex-wrap items-center gap-1.5">
+                <span className="text-sm font-bold text-navy">Google Reviews</span>
+                <span className="inline-flex items-center gap-0.5" aria-label={`Rating ${SITE.googleRating.toFixed(1)} dari 5`}>
+                  {[0,1,2,3,4].map(i => <Star key={i} className="size-3.5 fill-orange text-orange" />)}
+                </span>
+                <span className="text-sm font-extrabold text-navy">{SITE.googleRating.toFixed(1).replace(".", ",")}</span>
               </div>
-              <div className="text-[11px] text-muted-foreground mt-0.5 font-medium">{SITE.googleReviewCount} Ulasan Google</div>
-            </div>
+              <div className="text-xs font-semibold text-navy mt-1">{SITE.googleReviewCount} ulasan pelanggan</div>
+              <div className="text-[11px] text-orange mt-1 font-semibold">Lihat ulasan asli ↗</div>
+            </a>
             <div className="absolute bottom-5 left-5 right-5 bg-white/95 backdrop-blur rounded-2xl border border-white p-4 flex items-center justify-between gap-3 shadow-card">
               <div>
                 <div className="text-[11px] font-bold tracking-[0.18em] text-orange">RESPON CEPAT</div>
