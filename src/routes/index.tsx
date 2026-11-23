@@ -20,16 +20,16 @@ import { FloatingWhatsApp } from "@/components/landing/FloatingWhatsApp";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Pengiriman Barang Antar Kota Bandung & Jakarta | Fauzi Transindo" },
-      { name: "description", content: "Jasa pengiriman barang antar kota dari Bandung & Jakarta dengan respon cepat dan pelayanan personal. Granmax Box, Engkel Box, CDD Box, CDD Bak ke Jawa, Sumatera, Bali & NTB. Rating Google 5.0." },
-      { name: "keywords", content: "pengiriman barang antar kota bandung, ekspedisi bandung jakarta, granmax box bandung, engkel box bandung, cdd box bandung, jasa pindahan bandung, pindahan rumah bandung" },
-      { property: "og:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta" },
-      { property: "og:description", content: "Respon cepat & pelayanan personal. Granmax Box, Engkel Box, CDD Box & Bak ke Jawa, Sumatera, Bali & NTB." },
+      { title: "Sewa Mobil Box & Truk dengan Sopir Bandung | Fauzi Transindo" },
+      { name: "description", content: "Sewa mobil box dan truk dengan sopir dari Bandung & Jakarta. Sistem FTL: satu armada khusus, bukan ekspedisi per kg. Granmax, CDE Engkel, dan CDD Dobel untuk angkutan barang serta pindahan." },
+      { name: "keywords", content: "sewa mobil box bandung, sewa truk bandung, sewa engkel box bandung, sewa cdd bandung, jasa trucking bandung, angkutan barang antarkota, jasa pindahan bandung" },
+      { property: "og:title", content: "Fauzi Transindo — Sewa Mobil Box & Truk dengan Sopir Bandung" },
+      { property: "og:description", content: "Sewa satu armada khusus (FTL) dengan sopir: Granmax, CDE Engkel, CDD Dobel. Bukan pengiriman paket per kg." },
       { property: "og:url", content: "https://fauzitransindo.com" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta" },
-      { name: "twitter:description", content: "Respon cepat & pelayanan personal. Armada lengkap ke Jawa, Sumatera, Bali & NTB." },
+      { name: "twitter:description", content: "Sewa mobil box dan truk dengan sopir untuk angkut barang, distribusi, dan pindahan antarkota." },
     ],
     links: [{ rel: "canonical", href: "https://fauzitransindo.com" }],
     scripts: [
@@ -101,7 +101,7 @@ export const Route = createFileRoute("/")({
               name: "Bagaimana cara meminta penawaran?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Klik tombol WhatsApp di halaman ini, ceritakan kebutuhan Anda (asal, tujuan, jenis barang, perkiraan volume), dan tim kami akan memberikan penawaran terbaik.",
+                text: "Klik tombol WhatsApp dan informasikan asal, tujuan, jenis barang, serta ukuran atau perkiraan volume muatan. Kami akan memberikan penawaran sewa armada sesuai kebutuhan Anda.",
               },
             },
             {
@@ -194,10 +194,10 @@ export const Route = createFileRoute("/")({
             },
             {
               "@type": "Question",
-              name: "Apakah bisa kirim barang dagangan dalam jumlah kecil?",
+              name: "Apakah bisa menyewa armada meskipun muatan belum penuh?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Bisa. Kami melayani UMKM dengan armada Granmax Box sehingga Anda tidak harus menyewa truk besar untuk volume kecil.",
+                text: "Bisa. Sistem kami adalah sewa satu armada khusus dengan sopir (FTL), meskipun muatan tidak memenuhi seluruh kapasitas. Kami tidak melayani pengiriman paket atau tarif per kg. Untuk muatan kecil, tersedia pilihan Granmax Box.",
               },
             },
             {
