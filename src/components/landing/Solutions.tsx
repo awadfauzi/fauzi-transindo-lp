@@ -5,7 +5,7 @@ const solutions = [
   { icon: MessageSquareText, title: "Komunikasi cepat", desc: "Tim kami merespon pesan dengan sigap, supaya Anda tidak menunggu dalam ketidakpastian." },
   { icon: Handshake, title: "Pendampingan sampai tiba", desc: "Update jelas dari penjemputan hingga barang sampai di tujuan dengan selamat." },
   { icon: Map, title: "Jangkauan luas", desc: "Jaringan menjangkau Jawa, Sumatera, Bali, Lombok, dan kota-kota besar lainnya." },
-  { icon: Truck, title: "Armada sesuai kebutuhan", desc: "Granmax Box, Engkel Box, CDD Box, hingga CDD Bak siap dipilih sesuai volume Anda." },
+  { icon: Truck, title: "Armada sesuai kebutuhan", desc: "Granmax Box, CDE Engkel, CDD Box, dan CDD Bak disewa khusus untuk muatan Anda, meskipun tidak memenuhi seluruh kapasitas." },
   { icon: Users, title: "Untuk bisnis & perorangan", desc: "Melayani perusahaan, UMKM, sekaligus kebutuhan pindahan rumah, kos, dan kantor." },
 ];
 
@@ -16,7 +16,7 @@ export function Solutions() {
         <div className="max-w-3xl mb-12 md:mb-16">
           <span className="inline-block text-xs font-bold tracking-[0.2em] text-orange mb-3">SOLUSI KAMI</span>
           <h2 className="text-balance text-3xl md:text-4xl lg:text-5xl font-bold text-navy">
-            Kami Membantu Anda Fokus Pada Barang, Bukan Repot Mencari Truk.
+            Butuh Mobil Box atau Truk? Kami Bantu Siapkan Armada Sesuai Muatan Anda.
           </h2>
         </div>
 
