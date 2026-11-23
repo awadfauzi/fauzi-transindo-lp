@@ -2,10 +2,10 @@ import { MessageCircle, ClipboardList, FileText, CalendarCheck2, Truck } from "l
 
 const steps = [
   { icon: MessageCircle, title: "Hubungi WhatsApp", desc: "Klik tombol WhatsApp dan mulai percakapan dengan tim kami." },
-  { icon: ClipboardList, title: "Jelaskan Kebutuhan", desc: "Ceritakan asal, tujuan, jenis barang, dan perkiraan volume." },
+  { icon: ClipboardList, title: "Jelaskan Kebutuhan", desc: "Informasikan asal, tujuan, jenis barang, serta ukuran atau perkiraan volume muatan." },
   { icon: FileText, title: "Terima Penawaran", desc: "Kami berikan penawaran transparan dengan rincian yang jelas." },
-  { icon: CalendarCheck2, title: "Jadwalkan Pengiriman", desc: "Konfirmasi jadwal dan titik penjemputan barang Anda." },
-  { icon: Truck, title: "Barang Dikirim", desc: "Armada berangkat, posisi diupdate sampai barang tiba selamat." },
+  { icon: CalendarCheck2, title: "Jadwalkan Armada", desc: "Konfirmasi jadwal dan titik penjemputan barang Anda." },
+  { icon: Truck, title: "Armada Berangkat", desc: "Armada berangkat, posisi diupdate sampai barang tiba selamat." },
 ];
 
 export function Process() {
@@ -15,7 +15,7 @@ export function Process() {
         <div className="max-w-2xl mb-12 md:mb-16">
           <span className="inline-block text-xs font-bold tracking-[0.2em] text-orange mb-3">CARA KERJA</span>
           <h2 className="text-balance text-3xl md:text-4xl lg:text-5xl font-bold text-navy">
-            5 langkah sederhana, barang Anda berangkat.
+            5 Langkah Mudah Menyewa Armada Fauzi Transindo.
           </h2>
         </div>
 
