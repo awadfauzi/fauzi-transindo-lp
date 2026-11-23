@@ -101,25 +101,25 @@ export function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`Lihat ${SITE.googleReviewCount} ulasan asli Fauzi Transindo di Google`}
-              className="absolute top-4 left-4 z-10 max-w-[calc(100%-2rem)] bg-white/95 backdrop-blur rounded-2xl border border-white/90 px-4 py-3 shadow-card hover:bg-white hover:shadow-elegant focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange transition-all"
+              className="absolute top-3 left-3 z-10 max-w-[70%] bg-white/95 backdrop-blur rounded-xl border border-white/90 px-2.5 py-1.5 shadow-card hover:bg-white hover:shadow-elegant focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange transition-all"
             >
-              <div className="flex flex-wrap items-center gap-1.5">
-                <span className="text-sm font-bold text-navy">Google Reviews</span>
+              <div className="flex flex-wrap items-center gap-1">
+                <span className="text-[11px] font-bold text-navy">Google Reviews</span>
                 <span className="inline-flex items-center gap-0.5" aria-label={`Rating ${SITE.googleRating.toFixed(1)} dari 5`}>
-                  {[0,1,2,3,4].map(i => <Star key={i} className="size-3.5 fill-orange text-orange" />)}
+                  {[0,1,2,3,4].map(i => <Star key={i} className="size-2.5 fill-orange text-orange" />)}
                 </span>
-                <span className="text-sm font-extrabold text-navy">{SITE.googleRating.toFixed(1).replace(".", ",")}</span>
+                <span className="text-[11px] font-extrabold text-navy">{SITE.googleRating.toFixed(1).replace(".", ",")}</span>
               </div>
-              <div className="text-xs font-semibold text-navy mt-1">{SITE.googleReviewCount} ulasan pelanggan</div>
-              <div className="text-[11px] text-orange mt-1 font-semibold">Lihat ulasan asli ↗</div>
+              <div className="text-[10px] font-semibold text-navy mt-0.5">{SITE.googleReviewCount} ulasan pelanggan</div>
+              <div className="text-[9px] text-orange mt-0.5 font-semibold">Lihat ulasan asli ↗</div>
             </a>
-            <div className="absolute bottom-5 left-5 right-5 bg-white/95 backdrop-blur rounded-2xl border border-white p-4 flex items-center justify-between gap-3 shadow-card">
+            <div className="absolute bottom-3 left-3 w-[58%] max-w-[245px] bg-white/95 backdrop-blur rounded-xl border border-white px-2.5 py-2 flex items-center justify-between gap-2 shadow-card">
               <div>
-                <div className="text-[11px] font-bold tracking-[0.18em] text-orange">RESPON CEPAT</div>
-                <div className="font-display font-semibold text-navy text-sm leading-tight mt-1">Konsultasi gratis<br/>via WhatsApp</div>
+                <div className="text-[9px] font-bold tracking-[0.12em] text-orange">RESPON CEPAT</div>
+                <div className="font-display font-semibold text-navy text-[11px] leading-tight mt-0.5">Konsultasi gratis<br/>via WhatsApp</div>
               </div>
-              <span className="grid size-11 place-items-center rounded-full bg-[var(--whatsapp)] text-white shadow-orange animate-float">
-                <ArrowRight className="size-5" strokeWidth={2.4} />
+              <span className="grid size-7 shrink-0 place-items-center rounded-full bg-[var(--whatsapp)] text-white shadow-orange animate-float">
+                <ArrowRight className="size-3.5" strokeWidth={2.4} />
               </span>
             </div>
           </div>
