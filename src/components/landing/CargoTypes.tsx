@@ -23,10 +23,10 @@ export function CargoTypes() {
         <div className="max-w-2xl mb-10 md:mb-14">
           <span className="inline-block text-xs font-bold tracking-[0.2em] text-orange mb-3">JENIS MUATAN</span>
           <h2 className="text-balance text-3xl md:text-4xl lg:text-5xl font-bold text-navy">
-            Barang Yang Biasa Kami Kirim.
+            Jenis Barang yang Bisa Diangkut Armada Kami.
           </h2>
           <p className="mt-4 text-muted-foreground text-lg">
-            Beragam jenis muatan kami tangani — dari kebutuhan bisnis hingga personal.
+            Sewa satu mobil box atau truk untuk barang usaha, distribusi, dan pindahan. Muatan tidak digabung dengan pelanggan lain.
           </p>
         </div>
 
