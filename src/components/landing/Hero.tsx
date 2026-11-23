@@ -1,5 +1,8 @@
+import { useEffect, useState } from "react";
 import { Check, ArrowRight, Sparkles, Star } from "lucide-react";
-import heroPic from "@/assets/heropic.jpg";
+import granmax from "@/assets/armada-1.jpg";
+import engkel from "@/assets/armada-2.jpg";
+import dobel from "@/assets/armada-3.jpg";
 import { WaButton } from "./WaButton";
 import { SITE } from "@/lib/site";
 
@@ -12,7 +15,18 @@ const badges = [
   "Jawa, Sumatera, Bali & NTB",
 ];
 
+const heroImages = [
+  { src: granmax, alt: "Granmax Box Fauzi Transindo" },
+  { src: engkel, alt: "CDE Engkel Box Fauzi Transindo" },
+  { src: dobel, alt: "CDD Dobel Box Fauzi Transindo" },
+];
+
 export function Hero() {
+  const [activeImage, setActiveImage] = useState(0);
+  useEffect(() => {
+    const timer = window.setInterval(() => setActiveImage((i) => (i + 1) % heroImages.length), 4000);
+    return () => window.clearInterval(timer);
+  }, []);
   return (
     <section id="top" className="relative overflow-hidden pt-28 md:pt-36 pb-20 md:pb-28">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(70%_60%_at_50%_0%,color-mix(in_oklab,var(--orange)_12%,transparent)_0%,transparent_60%),linear-gradient(180deg,var(--navy-soft)_0%,white_70%)]" />
@@ -68,13 +82,19 @@ export function Hero() {
 
         <div className="relative">
           <div className="relative aspect-[5/4] rounded-[2rem] overflow-hidden shadow-elegant ring-1 ring-navy/10">
-            <img
-              src={heroPic}
-              alt="Forklift memuat barang ke truk box di area pelabuhan/gudang"
-              className="size-full object-cover object-center"
-              width={1600}
-              height={1280}
-            />
+            {heroImages.map(({ src, alt }, index) => (
+              <img
+                key={src}
+                src={src}
+                alt={alt}
+                aria-hidden={index !== activeImage}
+                className={`absolute inset-0 size-full object-cover object-center transition-opacity duration-700 ${index === activeImage ? "opacity-100" : "opacity-0"}`}
+                width={880}
+                height={1100}
+                fetchPriority={index === 0 ? "high" : "auto"}
+                loading={index === 0 ? "eager" : "lazy"}
+              />
+            ))}
             <div className="absolute inset-0 bg-gradient-to-tr from-navy/45 via-transparent to-transparent" />
             <div className="absolute top-5 left-5 bg-white/95 backdrop-blur rounded-2xl border border-white px-4 py-3 shadow-card">
               <div className="flex items-center gap-1.5">
