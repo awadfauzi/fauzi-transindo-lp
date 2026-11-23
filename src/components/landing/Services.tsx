@@ -22,14 +22,14 @@ type Armada = {
 };
 
 const armada: Armada[] = [
-  { id: "luarkota", img: antarKota, title: "Pengiriman Antar Kota", capacity: "Layanan Utama", dim: "Bandung • Jakarta • Jawa, Sumatera, Bali & NTB", desc: "Layanan pengiriman antar kota dari Bandung dan Jakarta — bisnis maupun personal.", highlight: true, fit: "cover" },
-  { id: "antarpulau", img: antarPulau, title: "Pengiriman Antar Pulau", capacity: "Sumatera • Bali • NTB", dim: "Penyeberangan & koordinasi rute", desc: "Pengiriman antar pulau ke Sumatera, Bali, dan NTB dengan armada dan rute yang sudah teruji.", fit: "cover" },
+  { id: "luarkota", img: antarKota, title: "Sewa Armada Antar Kota", capacity: "Layanan Utama", dim: "Bandung • Jakarta • Jawa, Sumatera, Bali & NTB", desc: "Sewa satu armada dengan sopir untuk angkut barang dari Bandung atau Jakarta ke kota tujuan Anda.", highlight: true, fit: "cover" },
+  { id: "antarpulau", img: antarPulau, title: "Sewa Armada Antar Pulau", capacity: "Sumatera • Bali • NTB", dim: "Penyeberangan & koordinasi rute", desc: "Sewa armada khusus untuk angkutan antarpulau ke Sumatera, Bali, dan NTB sesuai rute yang disepakati.", fit: "cover" },
   { id: "pindahan", img: pindahanRumah, title: "Pindahan Rumah", capacity: "Personal", dim: "Pengemasan & pemindahan", desc: "Pindahan rumah cepat, rapi, dan aman dengan tim berpengalaman.", fit: "cover" },
   { id: "pindahan-kantor", img: pindahanKantor, title: "Pindahan Kantor", capacity: "Bisnis", dim: "Minim ganggu operasional", desc: "Pindahan kantor terkoordinasi agar aktivitas bisnis Anda tetap berjalan.", fit: "cover" },
-  { id: "granmax", img: granmax, title: "Granmax Box — Pengiriman Barang Cepat", capacity: "± 800 kg", dim: "± 2.2 × 1.5 × 1.2 m • Vol. 3–4 m³", desc: "Armada ringkas untuk pengiriman volume kecil dalam kota maupun antar kota.", withDriver: true, fit: "contain" },
-  { id: "engkel", img: engkel, title: "Engkel Box — Armada Standar Kami", capacity: "± 2 Ton", dim: "± 3.0 × 1.6 × 1.6 m • Vol. 7–8 m³", desc: "Pilihan ideal untuk pengiriman menengah dengan ruang muat lebih lega.", withDriver: true, fit: "contain" },
-  { id: "cdd", img: cddBox, title: "CDD Box — Pengiriman Kapasitas Besar", capacity: "± 4 Ton", dim: "± 4.0 × 1.8 × 1.8 m • Vol. 13–14 m³", desc: "Truk box berkapasitas besar untuk pengiriman antar provinsi dan antar pulau.", withDriver: true, fit: "contain" },
-  { id: "cdd-bak", img: cddBak, title: "CDD Bak — Material & Muatan Besar", capacity: "± 4 Ton", dim: "± 4.0 × 1.8 × 1.8 m • Vol. 13–14 m³", desc: "Bak terbuka untuk muatan besar, material, dan barang non-pecah belah.", withDriver: true, fit: "contain" },
+  { id: "granmax", img: granmax, title: "Sewa Granmax Box dengan Sopir", capacity: "± 800 kg", dim: "± 2.2 × 1.5 × 1.2 m • Vol. 3–4 m³", desc: "Sewa satu Granmax Box untuk muatan lebih kecil, baik dalam kota maupun antarkota; tidak dihitung per kg.", withDriver: true, fit: "contain" },
+  { id: "engkel", img: engkel, title: "Sewa CDE Engkel Box dengan Sopir", capacity: "± 2 Ton", dim: "± 3.0 × 1.6 × 1.6 m • Vol. 7–8 m³", desc: "Pilihan ideal untuk pengiriman menengah dengan ruang muat lebih lega.", withDriver: true, fit: "contain" },
+  { id: "cdd", img: cddBox, title: "Sewa CDD Dobel Box dengan Sopir", capacity: "± 4 Ton", dim: "± 4.0 × 1.8 × 1.8 m • Vol. 13–14 m³", desc: "Satu truk box khusus untuk angkutan barang berkapasitas besar antarkota dan antarpulau.", withDriver: true, fit: "contain" },
+  { id: "cdd-bak", img: cddBak, title: "Sewa CDD Dobel Bak dengan Sopir", capacity: "± 4 Ton", dim: "± 4.0 × 1.8 × 1.8 m • Vol. 13–14 m³", desc: "Bak terbuka untuk muatan besar, material, dan barang non-pecah belah.", withDriver: true, fit: "contain" },
 ];
 
 function ServiceCard({ s }: { s: Armada }) {
@@ -86,11 +86,11 @@ export function Services() {
           <div className="max-w-2xl">
             <span className="inline-block text-xs font-bold tracking-[0.2em] text-orange mb-3">LAYANAN UTAMA</span>
             <h2 className="text-balance text-3xl md:text-4xl lg:text-5xl font-bold text-navy">
-              Pengiriman Barang Antar Kota & Armada Lengkap Sesuai Kebutuhan.
+              Sewa Mobil Box & Truk dengan Sopir untuk Angkutan Barang dan Pindahan.
             </h2>
           </div>
           <p className="text-sm text-muted-foreground max-w-sm">
-            Tidak yakin armada mana yang sesuai? Tim kami bantu rekomendasikan setelah Anda ceritakan barangnya via WhatsApp.
+            Setiap pemesanan menggunakan satu armada khusus (FTL), bukan tarif per kg. Kami bantu pilih ukuran armada sesuai kebutuhan.
           </p>
         </div>
 
