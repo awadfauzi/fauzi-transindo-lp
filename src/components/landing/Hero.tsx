@@ -40,16 +40,16 @@ export function Hero() {
           </div>
 
           <h1 className="text-balance text-[32px] leading-[1.05] sm:text-5xl lg:text-[56px] font-extrabold text-navy">
-            Pengiriman Barang Antar Kota dari{" "}
+            Sewa Mobil Box & Truk dengan Sopir dari{" "}
             <span className="relative inline-block">
               <span className="relative z-10">Bandung</span>
               <span className="absolute inset-x-0 bottom-1 h-3 bg-orange/30 -z-0 rounded-sm" />
             </span>{" "}
-            dengan Respon Cepat dan Pelayanan Personal.
+            ke Berbagai Kota.
           </h1>
 
           <p className="text-balance text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Kirim barang ke seluruh Jawa dengan armada mobil box kami. Terjamin tepat waktu, harga kompetitif, dan asuransi penuh.
+            Granmax Box, CDE Engkel, dan CDD Dobel untuk angkutan barang usaha, distribusi, serta pindahan. Satu armada khusus untuk kebutuhan Anda, tanpa digabung dengan muatan pelanggan lain.
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
@@ -64,7 +64,7 @@ export function Hero() {
           </div>
 
           <p className="text-sm font-semibold text-navy">
-            Semua armada wajib dengan sopir. Tidak melayani lepas kunci.
+            Sewa per armada (FTL), bukan tarif per kg atau paket. Semua armada dengan sopir, tanpa lepas kunci.
           </p>
 
           <div className="flex flex-wrap gap-2 pt-3">
