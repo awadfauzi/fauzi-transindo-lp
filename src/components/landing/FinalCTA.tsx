@@ -10,10 +10,10 @@ export function FinalCTA() {
       <div className="relative container-px mx-auto max-w-4xl py-20 md:py-28 text-center">
         <span className="inline-block text-xs font-bold tracking-[0.22em] text-orange mb-4">SIAP BERANGKAT?</span>
         <h2 className="text-balance text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05]">
-          Masih Mencari Truk Untuk Pengiriman Anda?
+          Butuh Mobil Box atau Truk dengan Sopir?
         </h2>
         <p className="mt-6 text-lg md:text-xl text-white/75 max-w-2xl mx-auto leading-relaxed">
-          Ceritakan kebutuhan Anda dan kami bantu mencarikan solusi yang sesuai.
+          Sewa satu armada untuk angkut barang atau pindahan. Ceritakan rute dan muatan Anda agar kami bantu pilih kendaraan yang sesuai.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
           <WaButton size="xl">Hubungi via WhatsApp Sekarang</WaButton>
