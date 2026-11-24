@@ -79,6 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "robots", content: "noindex, nofollow" }, // Backup URL only; remove before moving production domain
       { title: "Fauzi Transindo — Jasa Trucking & Pindahan Terpercaya" },
       { name: "description", content: "Jasa pengiriman barang dan pindahan ke seluruh Indonesia. Pelayanan personal, aman, dan terpercaya. Konsultasi gratis via WhatsApp." },
       { name: "theme-color", content: "#1a2747" },
