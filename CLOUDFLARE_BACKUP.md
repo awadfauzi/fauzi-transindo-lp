@@ -3,13 +3,27 @@
 This branch is reserved for an independent Cloudflare Workers deployment of
 https://www.kirimbaranglogistik.com/. Production remains on Vercel from `main`.
 
-## Status (2026-11-24)
-- Cloudflare Vite configuration: prepared
-- Worker configuration: prepared (`fauzi-transindo-backup`)
-- Dependencies: changed in package.json but **package-lock.json not regenerated**
-- Build / deploy to workers.dev: **NOT DONE**
-- Cloudflare account has no workers.dev subdomain yet and has no Worker
-- Vercel's `main` branch and domain DNS: unchanged
+## Verified progress (2026-11-24)
+- Cloudflare account and workers.dev subdomain: connected, awadfauzi.workers.dev
+- Cloudflare Worker 'fauzi-transindo-backup': created as **temporary placeholder only**, workers.dev disabled
+- Cloudflare GitHub repository connection: created
+- Cloudflare Vite config and wrangler.jsonc: prepared
+- package.json and package-lock.json: updated by GitHub Actions
+- GitHub Actions build: **PASSED** (run 45331417182)
+- Actual Cloudflare app deployment: **NOT DONE**
+- Runtime/Google tag testing on Cloudflare: **NOT DONE**
+- Vercel production and domain DNS: **UNCHANGED**
+
+## Deployment blocker
+Cloudflare Workers Builds requires an authorized build token. The connected
+Cloudflare tool cannot create Cloudflare API tokens because API Tokens permission
+is unavailable. Do not copy API tokens into chat.
+
+To finish, open Workers & Pages > fauzi-transindo-backup > Settings > Builds.
+Connect GitHub repository awadfauzi/fauzi-transindo-lp through Cloudflare's
+official authorization, selecting production branch cloudflare-backup-workers.
+Use build command 'npm run build', deploy command 'npx wrangler deploy',
+and root directory '/'. Do NOT bind a custom domain or change DNS.
 
 ## Steps to finish
 1. Select an account-wide workers.dev subdomain in the Cloudflare dashboard.
