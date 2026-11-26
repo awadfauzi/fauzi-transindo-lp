@@ -25,13 +25,13 @@ export const Route = createFileRoute("/")({
       { name: "keywords", content: "sewa mobil box bandung, sewa truk bandung, sewa engkel box bandung, sewa cdd bandung, jasa trucking bandung, angkutan barang antarkota, jasa pindahan bandung" },
       { property: "og:title", content: "Fauzi Transindo — Sewa Mobil Box & Truk dengan Sopir Bandung" },
       { property: "og:description", content: "Sewa satu armada khusus (FTL) dengan sopir: Granmax, CDE Engkel, CDD Dobel. Bukan pengiriman paket per kg." },
-      { property: "og:url", content: "https://fauzitransindo.com" },
+      { property: "og:url", content: "https://www.kirimbaranglogistik.com/" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Fauzi Transindo — Pengiriman Barang Antar Kota Bandung & Jakarta" },
       { name: "twitter:description", content: "Sewa mobil box dan truk dengan sopir untuk angkut barang, distribusi, dan pindahan antarkota." },
     ],
-    links: [{ rel: "canonical", href: "https://fauzitransindo.com" }],
+    links: [{ rel: "canonical", href: "https://www.kirimbaranglogistik.com/" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -39,7 +39,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": ["LocalBusiness", "MovingCompany"],
           name: "Fauzi Transindo",
-          url: "https://fauzitransindo.com",
+          url: "https://www.kirimbaranglogistik.com/",
           telephone: "+6282117207037",
           email: "fauzitransindo@gmail.com",
           address: {
